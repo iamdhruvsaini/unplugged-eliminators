@@ -1,0 +1,55 @@
+@import url(../../appStyles.scss);
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding-inline: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav .logo {
+  width: 45px;
+  height: 45px;
+}
+nav .header {
+  font-size: 3rem;
+  font-weight: bold;
+  -webkit-transform: translate(50%);
+          transform: translate(50%);
+}
+nav .navItems {
+  font-size: 1.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 2rem;
+}
+nav .navItems .leaderboard,
+nav .navItems .projects {
+  list-style: none;
+  color: #141414;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  background-color: #ffd700;
+  background-color: #f4f4f4;
+}
+nav .navItems .login-btn {
+  color: #141414;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  background-color: #ffd700;
+}
+nav .navItems .login-btn:hover {
+  scale: 1.05;
+}

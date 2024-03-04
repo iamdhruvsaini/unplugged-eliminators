@@ -1,0 +1,55 @@
+@import url(../../appStyles.scss);
+body {
+  background-color: #F4F4F4;
+  color: #141414;
+}
+body .content {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  body .content {
+    grid-template-columns: 1fr;
+  }
+}
+body .content .left {
+  padding-left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+body .content .left h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+body .content .left h2 {
+  line-height: 1.7rem;
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.5rem;
+  max-width: 80%;
+}
+body .content .left .login {
+  background: #ffd700;
+  color: #141414;
+  padding: 0.5rem 1rem;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+  width: 10%;
+  border-radius: 5px;
+}
+body .content .left .login:hover {
+  scale: 1.05;
+}
+body .content .right img {
+  width: 100%;
+}
