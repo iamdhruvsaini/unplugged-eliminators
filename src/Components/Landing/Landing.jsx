@@ -9,7 +9,7 @@ export default function Landing() {
       <div className="content">
         <div className="left">
           <h1>Connectify</h1>
-          <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum dolores at accusamus molestias exercitationem repudiandae iusto saepe, dolore tempore porro doloremque, tenetur et.</h2>
+          <h2>Connectify is a dynamic online platform designed to foster collaboration and community building among college students. It goes beyond traditional social networks by connecting students across various academic years, emphasizing the sharing of skills and knowledge.</h2>
           <div className="buttons">
             <div className="login">Login</div>
           </div>
