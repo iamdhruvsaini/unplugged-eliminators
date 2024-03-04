@@ -15,7 +15,7 @@ export default function Landing() {
           </div>
         </div>
         <div className="right">
-          <img src="src/assets/Images/Reflecting.svg" alt="" />
+          <img src="src/assets/Images/Chaotic Good.svg" alt="" />
         </div>
       </div>
     </>

@@ -5,11 +5,10 @@ export default function Nav() {
         <nav>
 
             <img className='logo' src="src/assets/Images/logo.png" alt="Website logo" />
-            <div className='header'>Connectify</div>
+            {/* <div className='header'>Connectify</div> */}
             <div className="navItems">
-
-                <button>Leaderboard</button>
-                <button>Projects</button>
+                <button className='leaderboard'>Leaderboard</button>
+                <button className='projects'>Projects</button>
                 <button className="login-btn">Login</button>
             </div>
         </nav>

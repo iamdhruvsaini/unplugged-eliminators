@@ -1,5 +1,8 @@
 @import url(../../appStyles.scss);
 nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
   padding-inline: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,14 +27,16 @@ nav .navItems {
   display: -ms-flexbox;
   display: flex;
   gap: 1rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 2rem;
 }
-nav .navItems button {
+nav .navItems .leaderboard,
+nav .navItems .projects {
   list-style: none;
   color: #141414;
   padding: 0.5rem 1.5rem;

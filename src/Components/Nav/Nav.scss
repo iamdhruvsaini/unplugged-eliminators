@@ -3,6 +3,9 @@
 
 
 nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
 
     padding-inline: 1rem;
     display: flex;
@@ -23,10 +26,12 @@ nav {
         font-size: 1.1rem;
         display: flex;
         gap: 1rem;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
+        margin-right: 2rem;
 
-        button {
+        .leaderboard,
+        .projects {
             list-style: none;
             color: #141414;
             padding: 0.5rem 1.5rem;
@@ -47,4 +52,6 @@ nav {
             }
         }
     }
+
+
 }
